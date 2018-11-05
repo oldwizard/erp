@@ -1,0 +1,1 @@
+<?phpdefined('BASEPATH') OR exit('No direct script access allowed');class Arhiva extends MY_Controller {    public function index() {        $this->data = $this->tmp();        $this->load->view('header',$this->data);        $this->load->view('arhiva/index');        $this->load->view('footer');    }       } 
